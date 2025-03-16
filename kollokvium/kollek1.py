@@ -10,7 +10,7 @@ def unique_char_strings_average(strings_list):
         c=a/n
         c=int(c)
     return c
-print(unique_char_strings_average(["salam", "shdgf"]))
+print(unique_char_strings_average([]))
 
 
 

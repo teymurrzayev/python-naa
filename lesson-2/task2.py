@@ -1,8 +1,8 @@
 def remove_duplicates(arr):
-    seen=set()
+    arr1=set()
     result=[]
-    for item in arr:
-        if item not in seen:
-            seen.add(item)
-            result.append(item)
+    for arr2 in arr:
+        if arr2 not in arr1:
+            arr1.add(arr2)
+            result.append(arr2)
     return result
